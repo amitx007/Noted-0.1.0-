@@ -197,7 +197,7 @@
     container.style.backgroundColor = "rgb(240, 240, 240)";
     container.style.display = "block";
     container.innerHTML = "";
-    container.innerHTML = ` <form class="bookMarkForm" style="background-color: rgb(240, 240, 240); border: 2px solid red;">
+    container.innerHTML = ` <form class="bookMarkForm" style="background-color: rgb(240, 240, 240); ">
         <input type="text" name="timeStamp" id="timeStamp" autofocus placeholder="00:00:00" style="width: 10%; text-align: center; border: none; outline: none ; background-color: rgb(255, 255, 255); height: 3.7rem;" disabled>
         <input type="text" name="title" id="titleForm" autofocus placeholder="Title" style="width: 80%;   outline: none ; margin: 0.8rem; margin-left: 0.5rem; height: 3.7rem; font-size: 18px; background-color: rgb(255, 255, 255);border: none; outline: none ; letter-spacing: 1.4px;" />
         <br>
