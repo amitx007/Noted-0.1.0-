@@ -1,0 +1,39 @@
+{
+  "name": "Noted",
+  "version": "0.1.0",
+  "description": "Save all your important notes and thoughts, create your To-Do list and prevent yourself from distracting websites while working.",
+  "permissions": ["storage", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "assets/noteInVideosW.png",
+        "assets/notesW.png",
+        "assets/toDoListW.png",
+        "assets/urlBlockerW.png",
+        "assets/yt-note2.png",
+        "assets/bg.jpg",
+        "https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500&display=swap"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "assets/ext-icon.png",
+      "24": "assets/ext-icon.png",
+      "32": "assets/ext-icon.png"
+    },
+    "default_title": "Noted",
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 3
+}

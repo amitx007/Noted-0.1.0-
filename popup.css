@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  /* background-color: red; */
+  height: 30rem;
+  width: 22.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem 1rem;
+}
+.home {
+  background-image: url("./assets/bg.jpg");
+  /* background: linear-gradient(to bottom right, #c5eee2, #f9d4f4); */
+  background-position: center;
+}
+.functionality {
+  width: 9rem;
+  height: 13rem;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  padding: 1rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.name {
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+.icons {
+  width: 45px;
+  margin-bottom: 1rem;
+}
+.notes-in-video {
+  background: linear-gradient(to bottom right, #facd68, #fc7683);
+}
+.to-do {
+  background: linear-gradient(to bottom right, #00f7a7, #04f5ed);
+}
+.blocker {
+  background: linear-gradient(to bottom right, #1de5e2, #b588f7);
+}
+.notes {
+  background: linear-gradient(to bottom right, #ffe324, #f8a71a);
+}
+
+/* youtube icon  */
+.bookmark-btn {
+  background-color: red;
+  width: 10px !important;
+}
+.noteBoxStyle {
+  height: 5rem;
+  background-color: red !important;
+}
+
+/* /////////////////////////////////////////////////////// */
+
+.notesInVideoContainer {
+  height: 30rem;
+  width: 22.5rem;
+  display: none;
+}
+.notesInVideo {
+  margin: 0.2rem 0;
+  border-radius: 1.4rem;
+  /* background-color: red; */
+  display: flex;
+}
+.image {
+  border: 2px solid white;
+  height: 5rem;
+  width: 24%;
+}
+.image img {
+  padding: 1rem;
+}
+.content {
+  border: 2px solid white;
+  height: 5rem;
+  width: 76%;
+  padding: 0.28rem;
+}
+.heading {
+  display: inline-block;
+  font-size: 1.2rem;
+}
+
+.expand {
+  cursor: pointer;
+}
+.expand:hover {
+  background-color: #00f7a7;
+}
+
+/* //////////////////////////////////////// */
+.blockerContainer {
+  height: 30rem;
+  width: 22.5rem;
+  display: none;
+}
+.formContainer {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid red; */
+}
+#urlInput {
+  margin: 1rem;
+  width: 13rem;
+  height: 2rem;
+  border: none;
+  outline: none;
+}
+#block {
+  height: 1.8rem;
+  width: 4rem;
+  cursor: pointer;
+}
+.blockList {
+  width: 100%;
+  height: 80%;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  flex-direction: column;
+}
+.list {
+  width: 100%;
+  height: 3rem;
+  padding: 0.7rem;
+  background-color: rgb(224, 224, 224);
+  margin-bottom: 0.5rem;
+}
+.blockhead,.taskhead {
+  display: inline-block;
+  /* border: 2px solid; */
+  width: 80%;
+  height: 1.5rem;
+  font-size: 0.9rem;
+}
+.unblock,.removeTask {
+  cursor: pointer;
+  font-size: 0.9rem;
+  height: 1.5rem;
+  width: 18%;
+}
+.noList {
+  font-size: 1.2rem;
+}
+
+/* =============================== */
+.todoContainer {
+  height: 30rem;
+  width: 22.5rem;
+  display: none;
+}
+.addTask {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+}
+#taskInput {
+  margin: 1rem;
+  width: 13rem;
+  height: 2rem;
+  border: none;
+  outline: none;
+  border: 2px solid;
+}
+#addTask {
+  height: 1.8rem;
+  width: 4rem;
+  cursor: pointer;
+}
+.showTask{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  flex-direction: column;
+}
+
+.noTask{
+  font-size: 1.2rem;
+}
